@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+.body{
+  margin: 0%;
+  background: linear-gradient( gray, white);
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(0, 51, 128);
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+html {
+  background-image: url(img/fon.jpg);
+  background-size: auto;
+  font-family: "Jacquard 24", helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+  font-family: "Jacquard 24", cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+thead,
+tfoot {
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+background-color: #22092C;
+border: 3px solid rgb(87, 88, 88);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #878887;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c0c0c0;
+}
+
+
+table {
+  background-color: #9fa09ca4;
+}
+
